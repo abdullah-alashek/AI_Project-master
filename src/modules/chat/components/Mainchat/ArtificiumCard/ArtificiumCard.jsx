@@ -4,7 +4,7 @@ const ArtificiumCard = ({ArtificiumCardInfo}) => {
   return (
     <div>
        {ArtificiumCardInfo.map((item,index) => (
-    <div key={index} className='Cards'>
+    <div key={index} className='li-Cards'>
 
        <div>
           <img className='LI-cardavatar' src={item.img3} alt='not found'/>

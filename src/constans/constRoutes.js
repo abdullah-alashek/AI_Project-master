@@ -1,5 +1,5 @@
 export const ROUTES = {
-    BASE: '',
+    BASE: 'AI_Project',
     HOME: 'home',
     LIBRARY: 'library',
     ARTIFICIUM:'artificium',

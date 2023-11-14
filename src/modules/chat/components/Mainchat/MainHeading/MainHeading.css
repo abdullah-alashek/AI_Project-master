@@ -1,20 +1,20 @@
 .ma-MainHeading {
     display: flex;
-    width: 50%;
+    width: 100%;
     padding: 0.5rem 0rem;
     justify-content: space-between;
     align-items: center;
     background-color: var(--background-color);
     height: 4rem;
     padding-bottom: 0rem;
-    gap: 2rem; 
+    gap: 1rem; 
 }
 
 .ma-projectName{
     display: flex;
     align-items: center;
     gap: 2rem;
-    margin: 7rem;
+    margin: 2rem;
 }
 
 .ma-projectName h2{
