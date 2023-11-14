@@ -1,0 +1,21 @@
+.aj-content-button {
+  display: flex;
+  height: 3rem;
+  padding: 0.5rem 1.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  align-self: stretch;
+  border-radius: 0.75rem;
+  background: var(--main-color);
+  color:#0C1132;
+  font-size: var(--p-font-size);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5rem;
+  letter-spacing: 0.00938rem;
+  border: unset;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+  text-decoration: none;
+}

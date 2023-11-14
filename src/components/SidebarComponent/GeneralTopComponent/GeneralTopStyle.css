@@ -1,0 +1,147 @@
+.nm-home-page-sidebar-general-top {
+    width: 312px;
+    height: 194px;
+    padding: 24px 8px 24px 8px;
+    border: 0px 0px 1px 0px;
+    gap: 24px;
+    border-bottom: 1px solid rgba(19, 22, 25, 1);
+    border-radius: 0px;
+    background: rgba(13, 15, 16, 1);
+}
+
+.nm-home-page-sidebar-general-top .nm-home-page-sidebar-general-top-heading {
+    padding: 0px 16px 0px 16px;
+    gap: 8px;
+    border-radius: 0px;
+    background: rgba(13, 15, 16, 1);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+    color: rgba(104, 107, 110, 1);
+}
+
+.nm-home-page-sidebar-general-top .nm-home-page-sidebar-general-top-list {
+    width: 296px;
+    height: 104px;
+    gap: 8px;
+    border-radius: 0px;
+    background: rgba(13, 15, 16, 1);
+    padding-top: 25px;
+}
+
+.nm-home-page-sidebar-general-top-list-item-1 {
+    width: 296px;
+    height: 48px;
+    padding: 14px 16px 14px 16px;
+    border-radius: 0px;
+    border: 1px 0px 0px 0px;
+    gap: 16px;
+    background: rgba(13, 15, 16, 1);
+    display: flex;
+    align-items: center;
+}
+
+.nm-home-page-sidebar-general-top-list-item-1 .nm-home-page-sidebar-general-top-list-item-1-label {
+    width: 210px;
+    height: 20px;
+    gap: 16px;
+    border-radius: 0px;
+    background: rgba(13, 15, 16, 1);
+    display: flex;
+}
+
+.nm-home-page-sidebar-general-top-list-item-1 .nm-home-page-sidebar-general-top-list-item-1-label p {
+    border-radius: 0px;
+    background: rgba(13, 15, 16, 1);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: center;
+    color: rgba(232, 233, 233, 1);
+}
+
+.nm-home-page-sidebar-general-top-list-item-1 .nm-home-page-sidebar-general-top-list-item-1-label .nm-home-page-sidebar-general-top-list-item-1-label-search {
+    width: 20px;
+    height: 20px;
+    padding: 3.33px 3.33px 3.33px 3.33px;
+    background: rgba(13, 15, 16, 1);
+    border-radius: 0px;
+}
+
+.nm-home-page-sidebar-general-top-list-item-1 .nm-home-page-sidebar-general-top-list-item-1-label .nm-home-page-sidebar-general-top-list-item-1-label-search img {
+    border-radius: 0px;
+    background: rgba(13, 15, 16, 1);
+    display: flex;
+    align-self: center;
+}
+
+.nm-home-page-sidebar-general-top-list-item-1-badge {
+    width: 38px;
+    height: 26px;
+    padding: 4px 8px 4px 8px;
+    border-radius: 4px;
+    border: 1px;
+    gap: 8px;
+    background: linear-gradient(117.58deg, rgba(215, 237, 237, 0.16) -47.79%, rgba(204, 235, 235, 0) 100%),
+                inear-gradient(0deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.08));
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.05);
+}
+
+.nm-home-page-sidebar-general-top-list-item-1-badge p {
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: center;
+    color: rgba(155, 156, 158, 1);
+}
+
+.nm-home-page-sidebar-general-top-list-item-2 {
+    width: 296px;
+    height: 48px;
+    padding: 14px 16px 14px 16px;
+    border-radius: 0px;
+    border: 1px 0px 0px 0px;
+    gap: 16px;
+    background: rgba(13, 15, 16, 1);
+}
+
+.nm-home-page-sidebar-general-top-list-item-2 .nm-home-page-sidebar-general-top-list-item-2-label {
+    width: 210px;
+    height: 20px;
+    gap: 16px;
+    border-radius: 0px;
+    background: rgba(13, 15, 16, 1);
+    display: flex;
+}
+
+.nm-home-page-sidebar-general-top-list-item-2 .nm-home-page-sidebar-general-top-list-item-2-label p {
+    border-radius: 0px;
+    background: rgba(13, 15, 16, 1);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: center;
+    color: rgba(232, 233, 233, 1);
+}
+
+.nm-home-page-sidebar-general-top-list-item-2 .nm-home-page-sidebar-general-top-list-item-2-label .nm-home-page-sidebar-general-top-list-item-2-label-billing {
+    width: 20px;
+    height: 20px;
+    padding: 3.33px 3.33px 3.33px 3.33px;
+    background: rgba(13, 15, 16, 1);
+    border-radius: 0px;
+}
+
+.nm-home-page-sidebar-general-top-list-item-2 .nm-home-page-sidebar-general-top-list-item-2-label .nm-home-page-sidebar-general-top-list-item-2-label-billing img {
+    border-radius: 0px;
+    background: rgba(13, 15, 16, 1);
+    display: flex;
+    align-self: center;
+}

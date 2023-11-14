@@ -1,0 +1,20 @@
+.sn-heading{
+    width: 16.5rem;
+    height:3.13rem ;
+    display: flex;
+justify-content: space-between;
+align-items: center;
+align-self: stretch;
+}
+.sn-type-list ,.sn-member-user{
+
+color: var(--noble-black-300, #9B9C9E);
+
+/* Body/S/SemiBold */
+font-family: Plus Jakarta Sans;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.125rem; /* 150% */
+letter-spacing: 0.00938rem;
+}

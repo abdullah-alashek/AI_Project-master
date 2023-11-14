@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ready class */
+.hidden {
+    display: none;
+}
+
+/* tap hidder */
+.tjo_sidebar_tap_content {
+    display: flex;
+    text-align: center;
+    padding: 0rem 0.75rem !important;
+    position: relative !important;
+}
+
+/* tap hidder  text */
+.tjo_sidebar_tap_text {
+    color: var(--p-text-color) !important;
+    text-align: center;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    letter-spacing: 0.00938rem;
+}
+
+/* tap hidder  text */
+.tjo_text_light {
+    color: var(--main-text-color) !important;
+}
+
+/* tap hidder  text */
+.tjo_lighticon_underline {
+    width: 6.25rem;
+    height: 0.25rem;
+    position: absolute;
+    right: -0.0625rem;
+    bottom: -1rem;
+    border-radius: 0.25rem 0.25rem 0rem 0rem;
+    background: var(--main-color);
+    box-shadow: 0px 4px 6px -4px rgba(182, 240, 156, 0.16), 0px 10px 15px -3px rgba(182, 240, 156, 0.16);
+}

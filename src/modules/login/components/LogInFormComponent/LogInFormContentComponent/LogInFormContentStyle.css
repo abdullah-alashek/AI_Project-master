@@ -1,0 +1,245 @@
+.nm-login-page-form-content {
+    color: white;
+    padding: 112px 112px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.nm-login-page-form-content-header {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    letter-spacing: 0.15px;
+}
+
+.nm-login-page-form-content-header .nm-login-page-form-content-header-h1 {
+    font-weight: 500;
+    line-height: 44px;
+}
+
+.nm-login-page-form-content-header .nm-login-page-form-content-header-h1 span {
+    background: linear-gradient(45deg, #4D62E5 0%, #87DDEE 45.31%, #B6F09C 100%),
+                linear-gradient(0deg, #FFFFFF, #FFFFFF),
+                linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    font-weight: 700;
+    line-height: 44px;
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text;
+}
+
+.nm-login-page-form-content-header .nm-login-page-form-content-header-p {
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(155, 156, 158, 1);
+}
+
+.nm-login-page-form-content-form {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.nm-login-page-form-content-form .nm-login-page-form-content-form-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+}
+
+.nm-login-page-form-content-form-fields .nm-login-page-form-content-form-fields-mail {
+    all: unset;
+    height: 48px;
+    padding: 0px 16px 0px 46px;
+    border: 1px solid transparent;
+    background: linear-gradient(0deg, #1A1D21, #1A1D21) padding-box,
+                linear-gradient(45deg, #82DBF7 0%, #B6F09C 100%) border-box;
+    border-radius: 8px;
+    box-shadow: 0px 0px 0px 4px rgba(132, 220, 245, 0.24);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+}
+
+.nm-login-page-form-content-form-fields-password {
+    all: unset;
+    height: 48px;
+    padding: 0px 16px 0px 46px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    border: 1px solid rgba(54, 58, 61, 1)
+}
+
+.nm-login-page-form-content-form-fields img {
+    position: absolute; 
+    left: 15px; 
+    top: 18px;
+    border-radius: 0px;
+}
+
+.nm-login-page-form-content-form-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nm-login-page-form-content-form-bottom .nm-login-page-form-content-form-bottom-checkbox .nm-login-page-form-content-form-bottom-checkbox-input {
+    -webkit-appearance: none;
+	background-color: transparent;
+	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.05);
+	border-radius: 4px;
+	display: inline-block;
+	position: relative;
+    width: 14px;
+    height: 14px;
+    border: 1px solid rgba(54, 58, 61, 1);
+    align-self: center;
+}
+
+.nm-login-page-form-content-form-bottom .nm-login-page-form-content-form-bottom-checkbox .nm-login-page-form-content-form-bottom-checkbox-input:active,
+.nm-login-page-form-content-form-bottom .nm-login-page-form-content-form-bottom-checkbox .nm-login-page-form-content-form-bottom-checkbox-input:checked:active {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.nm-login-page-form-content-form-bottom .nm-login-page-form-content-form-bottom-checkbox .nm-login-page-form-content-form-bottom-checkbox-input:checked {
+    background-color: transparent;
+	color: white;
+}
+
+.nm-login-page-form-content-form-bottom .nm-login-page-form-content-form-bottom-checkbox .nm-login-page-form-content-form-bottom-checkbox-input:checked::after {
+    content: '\2714';
+	font-size: 12px;
+	position: absolute;
+	top: -3px;
+	left: 1px;
+	color: white;
+}
+
+.nm-login-page-form-content-form-bottom .nm-login-page-form-content-form-bottom-checkbox .nm-login-page-form-content-form-bottom-checkbox-span {
+    background-color: #eee;
+}
+
+.nm-login-page-form-content-form-bottom .nm-login-page-form-content-form-bottom-checkbox {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(205, 206, 207, 1);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.nm-login-page-form-content-form-bottom .nm-login-page-form-content-form-bottom-link {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    background: linear-gradient(45deg, #82DBF7 0%, #B6F09C 100%);
+    text-decoration: none;
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text;
+}
+
+.nm-login-page-form-content-form-button {
+    all: unset;
+    background: rgba(182, 240, 156, 1);
+    border-radius: 12px;
+    padding: 8px 24px;
+    text-align: center;
+    color: rgba(12, 17, 50, 1);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    transition: 0.5s all;
+}
+
+.nm-login-page-form-content-form-button:hover {
+    background: transparent;
+    border: 1px solid rgba(182, 240, 156, 1);
+    color: white;
+}
+
+.nm-login-page-form-content-form-divider {
+    display: flex;
+    align-items: center;
+    color: rgba(104, 107, 110, 1);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.15px;
+}
+
+.nm-login-page-form-content-form-divider::before,
+.nm-login-page-form-content-form-divider::after {
+    flex: 1;
+    content: '';
+    padding: 1px;
+    background: rgba(54, 58, 61, 1);
+    margin: 10px;
+}
+
+.nm-login-page-form-content-form-socialbutton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nm-login-page-form-content-form-socialbutton .google {
+    all: unset;
+    background: rgba(26, 29, 33, 1);
+    color: rgba(104, 107, 110, 1);
+    padding: 8px 24px;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    display: flex;
+    transition: 0.5s all;
+}
+
+.nm-login-page-form-content-form-socialbutton .google:hover {
+    border: 1px solid white;
+}
+
+.nm-login-page-form-content-form-socialbutton .apple {
+    all: unset;
+    background: rgba(26, 29, 33, 1);
+    color: rgba(104, 107, 110, 1);
+    padding: 8px 24px;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    display: flex;
+    transition: 0.5s all;
+}
+
+.nm-login-page-form-content-form-socialbutton .apple:hover {
+    border: 1px solid white;
+}
+
+.nm-login-page-form-content-form-socialbutton .google img {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    align-self: center;
+    border-radius: 0px;
+    background: transparent;
+}
+
+.nm-login-page-form-content-form-socialbutton .apple img {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    align-self: center;
+    border-radius: 0px;
+    background: transparent;
+}

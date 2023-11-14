@@ -1,0 +1,158 @@
+.tjo_container {
+    height: 720px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+/*container  style */
+.tjo_colums_container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.25rem !important;
+    align-items: start;
+    gap: 0.9rem !important;
+}
+
+/* container line between columns */
+.tjo_colums_container .tjo_container_line {
+    width: 0.005rem;
+    height: 53.7rem;
+    background-color: #282828;
+}
+
+/*first coloumn style */
+.tjo_colums_container .tjo_column {
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+/* coloumn style */
+.tjo_colums_container .tjo_column .tjo_tap_header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem !important;
+}
+
+/* header text style */
+.tjo_colums_container .tjo_column .tjo_tap_header .tjo_tap_text,
+.tjo_offcanvas .tjo_canvas_header .tjo_canvasheader_content .tjo_canvasheader_title {
+    color: var(--main-text-color) !important;
+    text-align: start;
+    font-size: var(--section-title-fontsize);
+    font-weight: 700;
+    line-height: 2rem;
+}
+
+/* header icon style */
+
+.tjo_colums_container .tjo_column .tjo_tap_header .tjo_icon_container {
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.625rem;
+}
+
+.tjo_colums_container .tjo_column .tjo_tap_header .tap_icon,
+.tjo_sidebar_btn .tjo_btn_icon,
+.tjo_offcanvas .tjo_canvas_header .tjo_canvasheader_content .tjo_canvasheader_icons .tjo_canvasheader_icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    flex-shrink: 0;
+    background-color: #ffffff00 !important;
+
+}
+
+/* btn styles */
+.tjo_sidebar_btn {
+    display: flex;
+    width: 2.5rem;
+    padding: 0.5rem 1rem;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 0.625rem;
+    align-self: stretch;
+    border-radius: 0.625rem;
+    background: var(--sec-background-color) !important;
+    border: none !important;
+}
+
+.tjo_colums_container .tjo_sidebar_btn:hover {
+    background-color: #28282811 !important;
+}
+
+/* button backgrownd */
+.tjo_sidebar_btn .tjo_btn_icon {
+    background: var(--sec-background-color);
+}
+
+/* -------------------------------------------------------------------------- */
+/* sidebar styles */
+.offcanvas {
+    --bs-offcanvas-zindex: 100000 !important;
+    --bs-offcanvas-width: 45rem !important;
+    --bs-offcanvas-height: 64rem !important;
+}
+
+/* header */
+.tjo_offcanvas .tjo_canvas_header {
+    display: flex;
+    width: 45rem;
+    padding: 2rem 2rem 1rem 2rem !important;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* header titel */
+.tjo_offcanvas .tjo_canvas_header .tjo_canvasheader_content {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    align-self: stretch;
+}
+
+/* canvas heder text */
+.tjo_offcanvas .tjo_canvas_header .tjo_canvasheader_content .tjo_canvasheader_title {
+    flex: 1 0 0;
+}
+
+/* header icons */
+.tjo_offcanvas .tjo_canvas_header .tjo_canvasheader_content .tjo_canvasheader_icons {
+    display: flex;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0.5rem 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 0.625rem;
+}
+
+/* header subtitle */
+.tjo_offcanvas .tjo_canvas_header .tjo_canvasheader_subtitle {
+    align-self: stretch;
+    color: var(--p-text-color);
+    font-size: var(--p-font-size);
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: 0.00938rem;
+}
+
+/*canvas tap container style */
+.tjo_offcanvas .tjo_canvas_header .tjo_canvas_container_of_taps {
+    display: flex;
+    width: 40rem;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+/* canvas header divider */
+.tjo_canvas_divider {
+    width: 45rem !important;
+    height: 0.0625rem;
+    background: #363A3D;
+}

@@ -1,0 +1,11 @@
+.nm-login-page-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nm-login-page-container .nm-login-page-container-mainimage {
+    width: 720px;
+    position: relative;
+    left: 0px;
+    border-radius: 0px;
+}

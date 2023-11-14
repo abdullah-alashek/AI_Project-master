@@ -1,0 +1,38 @@
+.aj-form-input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  flex: 1 0 0;
+}
+.aj-form-input p {
+  align-self: stretch;
+  color: var(--p-text-color);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
+  letter-spacing: 0.00938rem;
+}
+.aj-form-input input {
+  display: flex;
+  height: 3rem;
+  padding: 0rem 1rem;
+  align-items: center;
+  gap: 0.75rem;
+  align-self: stretch;
+  border-radius: 0.5rem;
+  border: 1px solid#363A3D;
+  background: var(--sec-background-color);
+  color: #9B9C9E;
+  outline: none;
+}
+.aj-form-input input::placeholder {
+  flex: 1 0 0;
+  color: var(--noble-black-300, #9B9C9E);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem; /* 150% */
+  letter-spacing: 0.00938rem;
+}

@@ -1,0 +1,21 @@
+.aj-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.aj-heading .aj-logo {
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
+}
+.aj-heading .ab-login {
+  font-size: var(--p-font-size);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5rem;
+  letter-spacing: 0.00938rem;
+  background: var(--logo-color);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

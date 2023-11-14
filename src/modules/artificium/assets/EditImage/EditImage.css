@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+.editimage{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #0D0F10;
+    width: 95%;
+    margin: 20px auto;
+    margin-bottom: 0px;
+    padding: 50px;
+
+}
+.editimage .edit{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+/* -------------- Start HeadingEdit ------------- */
+.editimage .head  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.editimage .head .projectName {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.editimage .head .projectName img {
+    cursor: pointer;
+}
+.editimage .head .projectName p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.editimage .head .buttons {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.editimage .head .buttons img {
+    cursor: pointer;
+}
+.editimage .head .buttons .export {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.editimage .head .buttons .export p {
+    color: #686B6E;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline;
+}
+/* -------------- End HeadingEdit ------------- */
+
+/* ************************************************************* */
+
+/* -------------- Start ImageBox ------------- */
+
+.imageBox {
+    width: 49%;
+}
+.imageBox img {
+    width: 100%;
+}
+
+/* -------------- End ImageBox ------------- */
+
+/* ************************************************************* */
+
+/* -------------- Start Editor ------------- */
+.editor{
+    width: 49%;
+    border: 1px solid #1A1D21;
+    border-radius: 12px;
+}
+.editor .tools{
+    padding: 24px;
+    border-top: 1px solid #1A1D21;
+    width: 100%;
+    border-radius: 12px;
+
+}
+
+button{
+    background-color: transparent;
+    border: 0;
+    margin-right: 24px;
+    max-width: fit-content;
+    cursor: pointer;
+}
+
+
+.editor .color {
+    padding: 24px;
+    border: 1px solid #1A1D21;
+
+}
+
+.editor .color .header , .effects .header {
+    margin-bottom: 30px;
+}
+.editor .color .header p , .effects .header p{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline;
+    margin-left: -10px; 
+}
+.editor .color .inputrange  {
+    margin-bottom: 20px;
+}
+.editor .color .inputrange .text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.editor .color .inputrange .text p{
+    color: #9B9C9E;
+    font-size: 16px;
+    font-weight: 600;
+     
+}
+/* -------------- input range ------------- */
+
+.range {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 100%;
+  }
+  input[type=range]::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    background: rgba(59,173,227,1);
+    height: 3px;
+    background: linear-gradient(270deg, #FF0000 0%, #FFFF00 15.9%, #00FF00 33.39%, #00FFFF 49.77%, #0000FF 66.57%, #FF00FF 83.77%);
+  }
+  input.saturation::-webkit-slider-runnable-track {
+    background: linear-gradient(270deg, #1701FF 0%, #808080 100%);
+  }
+  input[type=range]:focus {
+    outline: none;
+  } 
+  input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 2px solid;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    max-width: 80px;
+    position: relative;
+    bottom: 11px;
+    background-color: #1d1c25af;
+    cursor: -webkit-grab;
+    -webkit-transition: border 1000ms ease;
+    transition: border 1000ms ease;
+  }
+  .range.blue::-webkit-slider-thumb {
+     border-color: rgb(59,173,227);
+  }
+
+/* -------------- End input range ------------- */
+.editor .effects{
+    padding: 24px;
+}
+.editor .effects .options button{
+    background-color: transparent;
+    border: 0;
+    margin-right: 0px;
+    max-width: fit-content;
+}
+.editor .effects .options  p{
+    color: #CDCECF;
+}
+.editor .effects .options .iconeffect p{
+    color: #686B6E;
+}
+.editor .effects .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0px;
+}
+.editor .effects .options .iconeffect {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+}
+
+
+
+
+/* -------------- End Editor ------------- */
+
+
+
+
+
+
+

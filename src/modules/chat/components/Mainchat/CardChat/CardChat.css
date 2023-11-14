@@ -1,0 +1,135 @@
+.LI-Massage {
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    margin: 1.25rem 0rem;
+    align-items: flex-start;
+    gap: 1.5rem;
+    align-self: stretch;
+    border-radius: 1rem;
+}
+
+.LI-Massage:hover{
+    background-color:var(--third-background-color);
+}
+
+.LI-Massage:hover .LI-content,
+.LI-Massage:hover .LI-title,
+.LI-Massage:hover .LI-action {
+    background-color: var(--third-background-color);
+}
+
+.LI-Massage.active{
+    border: 1px solid var(--sec-background-color);
+}
+
+.LI-Massage .LI-avatar{
+    display: flex;
+    width: 3rem;
+    height: 3rem;;
+    padding: 0rem 0rem 0rem 0rem;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 1.25rem;
+}
+/* .LI-Massage .LI-content{
+display: flex;
+padding: 0.5rem 0rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 1.5rem;
+flex: 1 0 0;
+} */
+.LI-Massage .LI-LEEN{
+    display: flex;
+    gap: 0.7rem;
+    align-items: center;
+}
+
+.LI-Massage .LI-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.LI-Massage .LI-name .LI-title{
+    color: var(--main-text-color);
+    text-align: center;
+    /* Body/L/SemiBold */
+    font-family: Plus Jakarta Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5rem; /* 150% */
+    letter-spacing: 0.00938rem;
+}
+
+.LI-Massage .LI-name .LI-action{
+    color: var(--span-text-color);
+    text-align: center;
+    /* Body/S/Medium */
+    font-family: Plus Jakarta Sans;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.125rem; /* 150% */
+    letter-spacing: 0.00938rem;
+}
+
+.LI-Massage .LI-name .LI-icon{
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+    padding: 0.5rem 0.75rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.375rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.LI-Massage .LI-disc{
+    width: 100%;
+    height: auto;
+    align-self: stretch;
+    color: var(--p-text-color);
+    text-align: left;
+    /* Body/L/Medium */
+    font-family: Plus Jakarta Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem; /* 150% */
+    letter-spacing: 0.00938rem;
+}
+
+.LI-Massage .LI-hidden{
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.LI-Massage .LI-hidden button{
+    display: flex;
+    height: 2rem;
+    padding: 0.5rem 0.75rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.375rem;
+    border-radius: 0.5rem;
+    background: var(--sec-background-color);
+    color: var(--p-text-color);
+}
+
+.LI-Massage .LI-hidden p{
+     color: var(--p-text-color);
+    /* Body/XL/SemiBold */
+    font-family: Plus Jakarta Sans;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.75rem; /* 155.556% */
+    letter-spacing: 0.00938rem;
+}

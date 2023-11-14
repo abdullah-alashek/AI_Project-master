@@ -1,0 +1,60 @@
+.contentFour{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 0px auto;
+    text-align: center;
+}
+.contentFour .avatar h2{
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+.contentFour .avatar p{
+    color: #B6F09C;
+    font-size: 18px;
+    font-weight: 500;
+}
+.contentFour .buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0px;
+    gap: 40px;
+}
+.contentFour .buttons .workspace{
+    padding: 8px 16px 8px 16px;
+    border-radius: 12px;
+    border: none;
+    background-color: transparent;
+    color: #686B6E;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.contentFour .buttons .aj-joinnow{
+    padding: 16px 16px 16px 16px;
+    border-radius: 12px;
+    border: none;
+    background-color: #B6F09C;
+    color: #0C1132;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+.contentFour .users{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.contentFour .users p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #9B9C9E;
+}

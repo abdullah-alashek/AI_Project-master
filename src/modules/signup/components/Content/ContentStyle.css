@@ -1,0 +1,8 @@
+.aj-content {
+  display: flex;
+  width: 86%;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0px auto;
+  gap: 4rem;
+}

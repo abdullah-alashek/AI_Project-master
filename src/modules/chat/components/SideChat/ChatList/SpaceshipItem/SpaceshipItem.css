@@ -1,0 +1,52 @@
+.sn-spaceship-list{
+    display: flex;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 0.75rem;
+    border: 1px solid var(--sec-background-color);
+}
+.sn-spaceship-item{
+    display: flex;
+    position: relative;
+    width: 18rem;
+    height: 2rem;
+    padding: 0rem 0.75rem;
+    align-items: center;
+    /* gap: 1rem; */
+}
+
+.sn-spaceship-img{
+    display: flex;
+    width: 4rem;
+    height: 4rem;
+    padding: 0rem 0rem 1.58331rem 1.58331rem;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sn-name-space-item{
+    color: var(--p-text-color);
+    text-align: center;
+    /* Body/M/SemiBold */
+    font-family: Plus Jakarta Sans;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25rem; /* 142.857% */
+    letter-spacing: 0.00938rem;
+}
+.sn-spaceship-list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+.sn-itemlistspace-chat{
+    display: flex;
+    width: 18rem;
+    padding: 0.75rem;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.75rem;
+}

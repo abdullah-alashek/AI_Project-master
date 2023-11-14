@@ -1,0 +1,15 @@
+.aj-content-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+  align-self: stretch;
+}
+.aj-content-heading p {
+  align-self: stretch;
+  color: var(--main-text-color);
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.75rem;
+}

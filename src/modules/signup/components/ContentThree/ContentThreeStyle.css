@@ -1,0 +1,51 @@
+.contentThree{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 0px auto;
+}
+.contentThree .text {
+    text-align: center;
+}
+.contentThree .text h2{
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 500;
+
+}
+.contentThree .text p{
+    width: 70%;
+    color: #9B9C9E;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 20px auto;
+}
+.contentThree .access .aj-accessworkspace{
+    color: #0C1132;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #B6F09C;
+    border-radius: 12px;
+    padding: 16px 24px 16px 24px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.contentThree .back button{
+    color: #9B9C9E;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #1A1D21;
+    border-radius: 12px;
+    padding: 16px 24px 16px 24px;
+    border: none;
+    cursor: pointer;
+}
+.contentThree .or{
+    color: #686B6E;
+    font-size: 12px;
+    font-weight: 500;
+}

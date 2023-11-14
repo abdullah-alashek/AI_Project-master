@@ -1,0 +1,61 @@
+.ma-MainHeading {
+    display: flex;
+    width: 50%;
+    padding: 0.5rem 0rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background-color);
+    height: 4rem;
+    padding-bottom: 0rem;
+    gap: 2rem; 
+}
+
+.ma-projectName{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 7rem;
+}
+
+.ma-projectName h2{
+    color: var(--main-text-color);
+    text-align: center;
+    /* Heading/XS/Bold */
+    font-family: Plus Jakarta Sans;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem; /* 160% */
+}
+
+.ma-projectName .ma-badge img{
+    display: flex;
+    height: 2rem;
+    padding: 0.75rem;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.ma-button-icons{
+display: flex;
+justify-content: flex-end;
+align-items: center;
+gap: 1rem;
+color:var(--span-text-color);
+}
+
+.ma-button-icons .ma-star .ma-dots{
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+    padding: 0.5rem 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.ma-button-icons .ma-star .ma-dots img{
+    width: 1.5rem;
+    height: 1.5rem;
+    flex-shrink: 0;
+}

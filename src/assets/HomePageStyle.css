@@ -1,0 +1,8 @@
+.nm-home-page {
+    color: white;
+    display: flex;
+}
+
+.nm-home-page .nm-home-page-content {
+    margin: 10px 10px 10px 0px;
+}

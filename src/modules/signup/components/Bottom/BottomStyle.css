@@ -1,0 +1,16 @@
+.aj-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.aj-copyright, .aj-policy {
+  color: var(--p-text-color);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
+  letter-spacing: 0.00938rem;
+}
+.aj-policy {
+  text-align: right;
+}

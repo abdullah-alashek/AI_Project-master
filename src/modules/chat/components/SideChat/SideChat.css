@@ -1,0 +1,48 @@
+.sn-side-container{
+    background-color: #131619;
+    display: flex;
+    width: 19.5rem;
+    height: 100%;
+    padding: 0rem 1.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    align-self: stretch;
+    position: relative ;
+}
+.sn-side-chat {
+    z-index: 55;
+}
+.sn-footer-sidebar{
+    display: flex;
+    width: 19.5rem;
+    align-items: flex-start;
+    bottom: 0rem;
+    border-radius: 0.75rem;
+    border: 1px solid #1A1D21;
+}
+
+.sn-btn-member ,.sn-btn-chat{
+    border-radius: 0.75rem;
+    background: #1A1D21;
+    display: flex;
+    height: 3rem;
+    padding: 0.5rem 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    flex: 1 0 0;
+    color: #9B9C9E;
+    /* Body/L/SemiBold */
+    font-family: Plus Jakarta Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5rem; /* 150% */
+    letter-spacing: 0.00938rem;
+}
+
+.sn-btn-member img,
+.sn-btn-chat img {
+    background: transparent;
+}

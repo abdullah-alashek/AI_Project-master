@@ -1,0 +1,71 @@
+.nm-home-page-footer {
+    width: 1005px;
+    height: 96px;
+    padding: 24px;
+    border-radius: 20px;
+    gap: 24px;
+    background: rgba(13, 15, 16, 1);
+    display: flex;
+    align-items: center;
+}
+
+.nm-home-page-footer-microphone {
+    width: 48px;
+    height: 48px;
+    padding: 8px 24px 8px 24px;
+    border-radius: 12px;
+    gap: 12px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nm-home-page-footer-input {
+    all: unset;
+    width: 800px;
+    height: 48px;
+    padding: 12px 0px 12px 0px;
+    gap: 8px;
+}
+
+.nm-home-page-footer-input::placeholder {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+    color: rgba(54, 58, 61, 1);
+}
+
+.nm-home-page-footer-attachment {
+    width: 48px;
+    height: 48px;
+    padding: 8px 24px 8px 24px;
+    border-radius: 12px;
+    gap: 12px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nm-home-page-footer-attachment img {
+    background: transparent;
+}
+
+.nm-home-page-footer-dpaperplane {
+    width: 48px;
+    height: 48px;
+    padding: 8px 24px 8px 24px;
+    border-radius: 12px;
+    gap: 12px;
+    background: rgba(26, 29, 33, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nm-home-page-footer-dpaperplane img {
+    background: transparent;
+}

@@ -1,0 +1,268 @@
+.nm-home-page-sidebar-general-down {
+    width: 312px;
+    height: 614px;
+    padding: 24px 8px 24px 8px;
+    gap: 24px;
+    border-radius: 0px;
+    background: rgba(13, 15, 16, 1);
+}
+
+.nm-home-page-sidebar-general-down .nm-home-page-sidebar-general-down-heading {
+    padding: 0px 16px 0px 16px;
+    gap: 8px;
+    border-radius: 0px;
+    background: rgba(13, 15, 16, 1);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+    color: rgba(104, 107, 110, 1);
+}
+
+.nm-home-page-sidebar-general-down .nm-home-page-sidebar-general-down-list {
+    width: 296px;
+    height: 104px;
+    gap: 8px;
+    border-radius: 0px;
+    background: rgba(13, 15, 16, 1);
+    padding-top: 25px;
+}
+
+.nm-home-page-sidebar-general-down-list-item-1 {
+    width: 296px;
+    height: 48px;
+    padding: 14px 16px 14px 16px;
+    border-radius: 8px;
+    border: 1px 0px 0px 0px;
+    gap: 16px;
+    background: linear-gradient(117.58deg, rgba(215, 237, 237, 0.16) -47.79%, rgba(204, 235, 235, 0) 100%),
+                linear-gradient(0deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.08));
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.nm-home-page-sidebar-general-down-list-item-1 .nm-home-page-sidebar-general-down-list-item-1-label {
+    width: 210px;
+    height: 20px;
+    gap: 16px;
+    border-radius: 0px;
+    background: transparent;
+    display: flex;
+}
+
+.nm-home-page-sidebar-general-down-list-item-1 .nm-home-page-sidebar-general-down-list-item-1-label p {
+    border-radius: 0px;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: center;
+    color: rgba(232, 233, 233, 1);
+    margin-left: 15px;
+}
+
+.nm-home-page-sidebar-general-down-list-item-1 .nm-home-page-sidebar-general-down-list-item-1-label .nm-home-page-sidebar-general-down-list-item-1-label-square {
+    width: 20px;
+    height: 20px;
+    padding: 3px 3px 3px 3px;
+    background: transparent;
+    border-radius: 0px;
+}
+
+.nm-home-page-sidebar-general-down-list-item-1 .nm-home-page-sidebar-general-down-list-item-1-label .nm-home-page-sidebar-general-down-list-item-1-label-square img {
+    border-radius: 0px;
+    background: transparent;
+    position: relative;
+    top: -5px;
+}
+
+.nm-home-page-sidebar-general-down-list-item-2 {
+    width: 296px;
+    height: 48px;
+    padding: 14px 16px 14px 16px;
+    border-radius: 0px;
+    border: 1px 0px 0px 0px;
+    gap: 16px;
+    background: rgba(13, 15, 16, 1);
+    margin-bottom: 15px;
+}
+
+.nm-home-page-sidebar-general-down-list-item-2 .nm-home-page-sidebar-general-down-list-item-2-label {
+    width: 210px;
+    height: 20px;
+    gap: 16px;
+    border-radius: 0px;
+    background: rgba(13, 15, 16, 1);
+    display: flex;
+}
+
+.nm-home-page-sidebar-general-down-list-item-2 .nm-home-page-sidebar-general-down-list-item-2-label p {
+    border-radius: 0px;
+    background: rgba(13, 15, 16, 1);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: center;
+    color: rgba(232, 233, 233, 1);
+    margin-left: 15px;
+}
+
+.nm-home-page-sidebar-general-down-list-item-2 .nm-home-page-sidebar-general-down-list-item-2-label .nm-home-page-sidebar-general-down-list-item-2-label-triangle {
+    width: 20px;
+    height: 20px;
+    padding: 3.33px 3.33px 3.33px 3.33px;
+    background: rgba(13, 15, 16, 1);
+    border-radius: 0px;
+}
+
+.nm-home-page-sidebar-general-down-list-item-2 .nm-home-page-sidebar-general-down-list-item-2-label .nm-home-page-sidebar-general-down-list-item-2-label-triangle img {
+    border-radius: 0px;
+    background: transparent;
+    position: relative;
+    top: -5px;
+}
+
+.nm-home-page-sidebar-general-down-list-item-3 {
+    width: 296px;
+    height: 48px;
+    padding: 14px 16px 14px 16px;
+    border-radius: 0px;
+    border: 1px 0px 0px 0px;
+    gap: 16px;
+    background: rgba(13, 15, 16, 1);
+    margin-bottom: 15px;
+}
+
+.nm-home-page-sidebar-general-down-list-item-3 .nm-home-page-sidebar-general-down-list-item-3-label {
+    width: 210px;
+    height: 20px;
+    gap: 16px;
+    border-radius: 0px;
+    background: rgba(13, 15, 16, 1);
+    display: flex;
+}
+
+.nm-home-page-sidebar-general-down-list-item-3 .nm-home-page-sidebar-general-down-list-item-3-label p {
+    border-radius: 0px;
+    background: rgba(13, 15, 16, 1);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: center;
+    color: rgba(232, 233, 233, 1);
+    margin-left: 15px;
+}
+
+.nm-home-page-sidebar-general-down-list-item-3 .nm-home-page-sidebar-general-down-list-item-3-label .nm-home-page-sidebar-general-down-list-item-3-label-squareorange {
+    width: 20px;
+    height: 20px;
+    padding: 3.33px 3.33px 3.33px 3.33px;
+    background: transparent;
+    border-radius: 0px;
+}
+
+.nm-home-page-sidebar-general-down-list-item-3 .nm-home-page-sidebar-general-down-list-item-3-label .nm-home-page-sidebar-general-down-list-item-3-label-squareorange img {
+    border-radius: 0px;
+    background: transparent;
+    position: relative;
+    top: -5px;
+}
+
+.nm-home-page-sidebar-general-down-list-item-4 {
+    width: 296px;
+    height: 48px;
+    padding: 14px 16px 14px 16px;
+    border-radius: 0px;
+    border: 1px 0px 0px 0px;
+    gap: 16px;
+    background: rgba(13, 15, 16, 1);
+    margin-bottom: 15px;
+}
+
+.nm-home-page-sidebar-general-down-list-item-4 .nm-home-page-sidebar-general-down-list-item-4-label {
+    width: 210px;
+    height: 20px;
+    gap: 16px;
+    border-radius: 0px;
+    background: rgba(13, 15, 16, 1);
+    display: flex;
+}
+
+.nm-home-page-sidebar-general-down-list-item-4 .nm-home-page-sidebar-general-down-list-item-4-label p {
+    border-radius: 0px;
+    background: rgba(13, 15, 16, 1);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: center;
+    color: rgba(232, 233, 233, 1);
+    margin-left: 15px;
+}
+
+.nm-home-page-sidebar-general-down-list-item-4 .nm-home-page-sidebar-general-down-list-item-4-label .nm-home-page-sidebar-general-down-list-item-4-label-octagon {
+    width: 20px;
+    height: 20px;
+    padding: 3.33px 3.33px 3.33px 3.33px;
+    background: rgba(13, 15, 16, 1);
+    border-radius: 0px;
+}
+
+.nm-home-page-sidebar-general-down-list-item-4 .nm-home-page-sidebar-general-down-list-item-4-label .nm-home-page-sidebar-general-down-list-item-4-label-octagon img {
+    border-radius: 0px;
+    background: transparent;
+    position: relative;
+    top: -5px;
+}
+
+
+.nm-home-page-sidebar-general-down-list-item-5 {
+    width: 296px;
+    height: 48px;
+    padding: 14px 16px 14px 16px;
+    border-radius: 0px;
+    border: 1px 0px 0px 0px;
+    gap: 16px;
+    background: rgba(13, 15, 16, 1);
+}
+
+.nm-home-page-sidebar-general-down-list-item-5 .nm-home-page-sidebar-general-down-list-item-5-label {
+    width: 210px;
+    height: 20px;
+    gap: 16px;
+    border-radius: 0px;
+    background: rgba(13, 15, 16, 1);
+    display: flex;
+}
+
+.nm-home-page-sidebar-general-down-list-item-5 .nm-home-page-sidebar-general-down-list-item-5-label p {
+    border-radius: 0px;
+    background: rgba(13, 15, 16, 1);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: center;
+    color: rgba(104, 107, 110, 1);
+    margin-left: 15px;
+}
+
+.nm-home-page-sidebar-general-down-list-item-5 .nm-home-page-sidebar-general-down-list-item-5-label .nm-home-page-sidebar-general-down-list-item-5-label-pluscircle {
+    width: 20px;
+    height: 20px;
+    padding: 3.33px 3.33px 3.33px 3.33px;
+    background: rgba(13, 15, 16, 1);
+    border-radius: 0px;
+}
+
+.nm-home-page-sidebar-general-down-list-item-5 .nm-home-page-sidebar-general-down-list-item-5-label .nm-home-page-sidebar-general-down-list-item-5-label-pluscircle img {
+    border-radius: 0px;
+    background: transparent;
+    margin-left: 11px;
+}
